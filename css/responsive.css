@@ -1,0 +1,117 @@
+/*
+Template Name: OneWind
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+@media (min-width: 576px) {}
+@media (min-width: 768px) {
+    .tv-header-menu-wrap {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+
+@media (max-width: 1199.98px) {}
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+    .section-top-padd-100 {
+        padding-top: 70px;
+    }
+    .section-tb-padd-100 {
+        padding-bottom: 70px;
+        padding-top: 70px;
+    }
+    p {
+        font-size: 1.045rem;
+    }
+    .tv-sm-center {
+        -moz-box-pack: center !important;
+        justify-content: center !important;
+        display: flex;
+    }
+    .feature-list-wrapper.text-right {
+        margin-bottom: 25px;
+        text-align: center !important;
+    }
+    .contact-form .form-group {
+        margin-bottom: 0;
+    }
+    .primary-footer {
+        padding: 60px 0 30px;
+    }
+    .tv-footer-content {
+        margin-bottom: 25px;
+    }
+    .navbar-header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    header nav {
+        line-height: 40px;
+    }
+    header nav li {
+        padding: 0;
+    }
+    .dark-menu header nav li a.currElement, .dark-menu header nav li a:hover {
+        color: #1c1b1b;
+    }
+    .navbar-toggler {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .section-top-padd-100 {
+        padding-top: 60px;
+    }
+    .tv-section-head-title {
+        font-size: 1.6rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .tv-icon-box {
+        padding: 30px 25px;
+    }
+    .feature-list-wrapper.text-right {
+        text-align: left !important;
+    }
+    .tv-cta-holder {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .tv-cta-holder > * + * {
+        margin-top: 15px
+    }
+    .display-text-1 {
+        font-size: 14px;
+    }
+    .tv-font-40 {
+        font-size: 35px !important;
+    }
+    .feature-list-wrapper h3 {
+        font-size: 1.4rem;
+    }
+
+}
+@media (max-width: 479px) {
+    .portfolio-filter button {
+        display: block;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+}
