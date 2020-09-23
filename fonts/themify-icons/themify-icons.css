@@ -30,7 +30,7 @@
 	content: "\e601";
 }
 .ti-user:before {
-	content: "\e602";
+	content: "\e600";
 }
 .ti-unlock:before {
 	content: "\e603";
@@ -87,7 +87,7 @@
 	content: "\e614";
 }
 .ti-ruler-pencil:before {
-	content: "\e615";
+	content: "\e6d4";
 }
 .ti-ruler-alt:before {
 	content: "\e616";
@@ -216,13 +216,13 @@
 	content: "\e63f";
 }
 .ti-desktop:before {
-	content: "\e640";
+	content: "\e615";
 }
 .ti-cup:before {
 	content: "\e641";
 }
 .ti-crown:before {
-	content: "\e642";
+	content: "\e6e0";
 }
 .ti-comments:before {
 	content: "\e643";
