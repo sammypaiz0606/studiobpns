@@ -1153,3 +1153,47 @@ ul.link-follow li a.flickr:hover {
     background: #ff0084 none repeat scroll 0 0;
     border-color: #ff0084;
 }
+
+
+
+
+.work .item span {
+    margin-right: 5px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-transition: .3s;
+    transition: .3s;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    top: -15px;
+    left:35%;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border: 1px double #fff;
+    position: relative;
+    z-index: 200;
+    padding: 10px;
+  }
+  
+  .work .item:hover > span {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transition: .3s;
+    transition: .3s;
+    display: inline-block;
+    position: relative;
+    top: -90px;
+    color: #fff;
+  }
+  
+  .work .item span:hover {
+    border: 1px solid red;
+    color:red;
+    /* box-shadow: 1px 1px 10px #fff;     */
+  }
+ 
